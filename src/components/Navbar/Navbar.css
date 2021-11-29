@@ -1,0 +1,24 @@
+.navbar-brand {
+  font-style: italic;
+  font-weight: bold;
+}
+.navbar {
+  background-color: rgb(244, 250, 165);
+}
+.nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-item:hover {
+  background-color: rgba(214, 212, 98, 0.356);
+}
+.btnLogin {
+  color: rgb(248, 248, 248);
+  background-color: rgba(0, 0, 0, 0.699);
+  border-radius: 7px;
+  margin: 0.5em;
+}
+.btnLogin:hover {
+  background-color: rgb(0, 117, 219);
+  color: rgb(255, 255, 255);
+}

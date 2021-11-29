@@ -1,10 +1,17 @@
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Navbar_ from "./components/Navbar/Navbar"
 
-function App() {
+export default function App () {
   return (
-    <>
-    hndklahdad
-    </>
-  );
-}
+    <Router>
+    
+    <div>
+    <Navbar_/>
+    <Switch>
+    <Route exact path="/"></Route>   
+    </Switch>
+    </div> 
+    </Router>
 
-export default App;
+  )}
